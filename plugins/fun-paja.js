@@ -11,9 +11,10 @@
   return conn.sendMessage(m.chat, { text: `Oh, se corrió en menos de 1 hora!`.trim() , edit: key, mentions: [m.sender] }, { quoted: m });
 };
 
-handler.help = ['pajeatebot'];
+handler.help = ['pajeame'];
 handler.tags = ['fun'];
-handler.command = ['pajatebot', 'pajeate']
+handler.command = ['paja', 'pajeame']
 handler.group = true
+handler.register = true
 
 export default handler;
