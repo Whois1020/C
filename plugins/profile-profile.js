@@ -89,7 +89,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
 
     // Perfil picture
     const pp = await conn.profilePictureUrl(userId, 'image')
-      .catch(_ => 'https://i.imgur.com/2WZtOD6.jpeg')
+      .catch(_ => 'https://o.uguu.se/MJVbgdQD.jpg')
 
     const currency = global.currency || 'Coins'
 

@@ -2,14 +2,14 @@
 import PhoneNumber from 'awesome-phonenumber';
 
 const handler = async (m, { conn }) => {
-  const name = 'GojoBot - MD | ᥆𝖿𝖿іᥴіᥲᥣ';
-  const numCreador = '51900922660';
-  const empresa = 'ɢᴏᴊᴏ ʙᴏᴛ ɪɴɪᴄ.';
-  const about = '💫 𝑫𝒆𝒔𝒂𝒓𝒓𝒐𝒍𝒍𝒂𝒅𝒐𝒓 𝒐𝒇𝒇𝒊𝒄𝒊𝒂𝒍 𝒅𝒆 𝑮𝒐𝒋𝒐𝑩𝒐𝒕 - 𝑴𝑫';
-  const correo = 'carlosramirezvillanueva30@gmail.com';
-  const web = 'https://CarlosRv.vercel.app/';
+  const name = 'Arceus Whois ⚡ ';
+  const numCreador = '51936994155';
+  const empresa = 'Arceus Whois ⚡.';
+  const about = '💫 Developer Whois';
+  const correo = 'yallico2024@gmail.com';
+  const web = 'https://Instagram.com/whois.yallico';
   const direccion = 'Tokyo, Japón 🇯🇵';
-  const fotoPerfil = 'https://files.catbox.moe/2vwn2d.jpg';
+  const fotoPerfil = 'https://qu.ax/fMxXt.jpg';
 
   const vcard = `
 BEGIN:VCARD

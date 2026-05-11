@@ -2,7 +2,7 @@ import db from '../lib/database.js'
 
 const handler = async (m, { conn, text, command, usedPrefix }) => {
 try {
-const pp = await conn.profilePictureUrl(m.chat, 'image').catch(() => 'https://files.catbox.moe/xr2m6u.jpg')
+const pp = await conn.profilePictureUrl(m.chat, 'image').catch(() => 'https://o.uguu.se/MJVbgdQD.jpg')
 let mentionedJid = await m.mentionedJid
 let who = mentionedJid && mentionedJid.length ? mentionedJid[0] : m.quoted && await m.quoted.sender ? await m.quoted.sender : null
 const user = global.db.data.users[m.sender]

@@ -45,7 +45,7 @@ await conn.relayMessage(m.chat, { extendedTextMessage: { text: `${masss}\n${htex
 
 handler.help = ['hidetag']
 handler.tags = ['group']
-handler.command = ['hidetag', 'notificar', 'notify', 'tag']
+handler.command = ['hidetag', 'aviso', 'notify', 'n']
 handler.group = true
 handler.admin = true
 

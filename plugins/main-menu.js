@@ -14,14 +14,9 @@ let handler = async (m, { conn, usedPrefix }) => {
     let fecha = fechaObj.toLocaleDateString('en-US', { timeZone: 'America/Lima' })
     let date = `${fecha} ${hora}`
     let mediaList = [
-      'https://files.catbox.moe/dd03ew.mp4',
-      'https://files.catbox.moe/4pqpbt.mp4', 
-      'https://files.catbox.moe/6o9e6r.mp4',
-      'https://files.catbox.moe/iu8d05.mp4',
-      'https://files.catbox.moe/5hnwgw.mp4', 
-      'https://files.catbox.moe/b0toh8.mp4',
-      'https://files.catbox.moe/qacumt.mp4', 
-      'https://files.catbox.moe/wm3an6.mp4'
+      'https://qu.ax/SQIWW..mp4',
+      'https://qu.ax/CBbHZ..mp4', 
+      'https://qu.ax/vIKXn..mp4'
     ]
 
     let banner = mediaList[Math.floor(Math.random() * mediaList.length)]
@@ -49,15 +44,15 @@ let handler = async (m, { conn, usedPrefix }) => {
     }).join('\n\n')
 
     let menu = `
- 𔗨𔗨  お GOJOBOT - ${(conn.user.jid == global.conn.user.jid ? 'OFICIAL' : 'SUB BOT')} 🍜ᩨ :: 
+ 𔗨𔗨  お Arceus Whois - ${(conn.user.jid == global.conn.user.jid ? 'OFICIAL' : 'SUB BOT')} 🍜ᩨ :: 
 
-- ﹟ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ›* wa.me/51963315293
+- ﹟ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ›* wa.me/51936994155
 - ﹟ *ᴜsᴇʀs ›* ${totalreg}
 - ﹟ *ɢʀᴜᴘᴏs ›* ${groupsCount}
 - ﹟ *ᴄᴏᴍᴀɴᴅᴏs ›* ${totalCommands}
 - ﹟ *ᴜᴘᴛɪᴍᴇ ›* ${uptime}
 - ﹟ *ᴅᴀᴛᴇ/ᴛɪᴍᴇ ›* ${date}
-- ﹟ \`\`\`https://whatsapp.com/channel/0029VbBGlokA89MliWWv1x16\`\`\`
+- ﹟ \`\`\`https://chat.whatsapp.com/Fi6FHZ8VSGnAT7CKJkcd9r?mode=wwc\`\`\`
 
 ${secciones}`.trim()
 
@@ -73,7 +68,7 @@ ${secciones}`.trim()
               mentionedJid: [m.sender],
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363421367237421@newsletter',
+                newsletterJid: '120363419947391620@newsletter',
                 serverMessageId: '',
                 newsletterName: botname
               }
@@ -85,7 +80,7 @@ ${secciones}`.trim()
               mentionedJid: [m.sender],
               isForwarded: true,
               forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363421367237421@newsletter',
+                newsletterJid: '120363419947391620@newsletter',
                 serverMessageId: '',
                 newsletterName: botname
               },
