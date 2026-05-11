@@ -4,38 +4,38 @@ import { fileURLToPath } from "url"
 import fs from "fs"
 
 global.botNumber = "" 
-global.owner = ["51963315293", "51963315293", "51963315293", "51934053286"]
-global.suittag = ["51963315293"] 
+global.owner = ["51936994155", "59161601787", "529813279747", "56931300864", "573042479614", "51993800613"]
+global.suittag = ["5193699455"] 
 global.prems = []
 
 
 global.libreria = "Baileys Multi Device"
 global.vs = "^1.8.2 • Latest"
-global.nameqr = "ɢᴏᴊᴏ-ʙᴏᴛ ᴍᴅ"
+global.nameqr = "Arceus Whois"
 global.sessions = "Sessions/Principal"
 global.jadi = "Sessions/SubBot"
 global.kanekiAIJadibts = true
 
 
-global.botname = "𖹭  ׄ  ְ 🌱 𝐆𝐨𝐣𝐨𝐁𝐨𝐭-𝐌𝐃 ✩"
-global.textbot = "gσᴊσ вσт ν3 • мα∂є ву ¢αяℓσѕ.яν"
-global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ 𝙲𝙰𝚁𝙻𝙾𝚂.𝚁𝚅"
-global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ ƈαɾʅσʂ.ɾʋ"
-global.etiqueta = "✫ᴄᴀʀʟᴏs ʀᴀᴍɪʀᴇᴢ ❄️ ⊹꙰ "
-global.currency = "g᥆𝗍іᥴᥲs"
-global.banner = "https://raw.githubusercontent.com/Dev-lxyz/upload/main/uploads/mkyvs.jpeg"
-global.icono = "https://raw.githubusercontent.com/Dev-lxyz/upload/main/uploads/0wfrp.jpeg"
+global.botname = "𖹭  ׄ  ְ 🌱 Arceus Whois ✩"
+global.textbot = "Arceus - Dev Whois"
+global.dev = "© Developer Whois 🌱"
+global.author = "@Whois.yallico"
+global.etiqueta = "Whois Yallico 🌱"
+global.currency = "soles"
+global.banner = "https://o.uguu.se/MJVbgdQD.jpg"
+global.icono = "https://o.uguu.se/MJVbgdQD.jpg"
 global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = "https://chat.whatsapp.com/IDo5RtlTvyt59hqj7E9O28?mode=wwt"
-global.community = "https://chat.whatsapp.com/IDo5RtlTvyt59hqj7E9O28?mode=wwt"
-global.channel = "https://whatsapp.com/channel/0029VbBGlokA89MliWWv1x16"
-global.github = "https://github.com/Carlos13ra/GOJOBOT-MD"
-global.gmail = "shadowcore.xyz@gmail.com"
+global.group = "https://chat.whatsapp.com/Fi6FHZ8VSGnAT7CKJkcd9r?mode=wwc"
+global.community = "https://chat.whatsapp.com/Fi6FHZ8VSGnAT7CKJkcd9r?mode=wwc"
+global.channel = "https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m"
+global.github = "https://github.com"
+global.gmail = "yallico2024@gmail.com"
 global.ch = {
-ch1: "120363421367237421@newsletter"
+ch1: "120363419947391620@newsletter"
 }
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
