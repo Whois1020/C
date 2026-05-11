@@ -7,8 +7,8 @@ const { generateWAMessageFromContent, prepareWAMessageMedia, proto } = pkg
 
 var handler = m => m
 handler.all = async function (m) { 
-global.canalIdM = ["120363421367237421@newsletter", "120363421367237421@newsletter", "120363405880253341@newsletter"]
-global.canalNombreM = ["⋆｡ﾟ☁︎｡⋆ ɢᴏᴊᴏʙᴏᴛ❄️ | ᴄʜᴀɴɴᴇʟ ᴏғɪᴄɪᴀʟ ⋆｡ﾟ☁︎｡⋆", "☃️ 𝑮𝒐𝒋𝒐𝑩𝒐𝒕 - 𝑴𝑫 | 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 ᯓ🥭", "🍃┇⃟⛩️✧༚◦°𝙲 𝙰 𝚁 𝚂  𝗣𝗛𝗢𝗡𝗞⏤͟͞🇦🇱"]
+global.canalIdM = ["120363419947391620@newsletter", "120363419947391620@newsletter", "120363419947391620@newsletter"]
+global.canalNombreM = ["⋆｡ﾟ☁︎｡⋆ Arceus Whois❄️ | ᴄʜᴀɴɴᴇʟ ᴏғɪᴄɪᴀʟ ⋆｡ﾟ☁︎｡⋆", "☃️ Arceus Whois | 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 ᯓ🥭", "🍃┇⃟⛩️✧༚◦°𝙲 𝙰 𝚁 𝚂  𝗣𝗛𝗢𝗡𝗞⏤͟͞🇦🇱"]
 global.channelRD = await getRandomChannel()
 
 global.d = new Date(new Date + 3600000)
@@ -19,12 +19,12 @@ global.mes = d.toLocaleDateString('es', {month: 'long'})
 global.año = d.toLocaleDateString('es', {year: 'numeric'})
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true})
 
-var canal = 'https://whatsapp.com/channel/0029VbC34Nt42DchIWA0q11f' 
-var canal2 = 'https://whatsapp.com/channel/0029Vb6l62A5a240y2ClLp1M'
-var comunidad = 'https://whatsapp.com/channel/0029VbC34Nt42DchIWA0q11f'
-var git = 'https://github.com/Shadow-nex'
-var github = 'https://github.com/Carlos13ra/GOJOBOT-MD' 
-var correo = 'shadowcore.xyz@gmail.com'
+var canal = 'https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m' 
+var canal2 = 'https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m'
+var comunidad = 'https://whatsapp.com/channel/0029Vb5oUp43LdQUVViHwc0m'
+var git = 'https://github.com/Shadow'
+var github = 'https://github.com' 
+var correo = 'yfllico2024@gmail.com'
 global.redes = [canal, comunidad, git, github, correo].getRandom()
 
 global.nombre = m.pushName || 'Anónimo'

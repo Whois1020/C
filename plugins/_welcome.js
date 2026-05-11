@@ -23,7 +23,7 @@ async function generarBienvenida({ conn, userId, groupMetadata, chat }) {
     const username = `@${userId.split('@')[0]}`
 
     const pp = await conn.profilePictureUrl(userId, 'image')
-        .catch(() => 'https://raw.githubusercontent.com/The-King-Destroy/Adiciones/main/Contenido/1745522645448.jpeg')
+        .catch(() => 'https://o.uguu.se/MJVbgdQD.jpg')
 
     const fecha = new Date().toLocaleDateString("es-PE", {
         timeZone: "America/Lima",
@@ -67,7 +67,7 @@ async function generarDespedida({ conn, userId, groupMetadata, chat }) {
     const username = `@${userId.split('@')[0]}`
 
     const pp = await conn.profilePictureUrl(userId, 'image')
-        .catch(() => 'https://raw.githubusercontent.com/The-King-Destroy/Adiciones/main/Contenido/1745522645448.jpeg')
+        .catch(() => 'https://o.uguu.se/MJVbgdQD.jpg')
 
     const fecha = new Date().toLocaleDateString("es-PE", {
         timeZone: "America/Lima",
