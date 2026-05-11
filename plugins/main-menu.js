@@ -14,9 +14,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let fecha = fechaObj.toLocaleDateString('en-US', { timeZone: 'America/Lima' })
     let date = `${fecha} ${hora}`
     let mediaList = [
-      'https://qu.ax/SQIWW.mp4',
-      'https://qu.ax/CBbHZ.mp4', 
-      'https://qu.ax/vIKXn.mp4'
+      'https://o.uguu.se/MJVbgdQD.jpg'
     ]
 
     let banner = mediaList[Math.floor(Math.random() * mediaList.length)]
